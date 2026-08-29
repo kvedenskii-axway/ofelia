@@ -1,8 +1,6 @@
 module github.com/mcuadros/ofelia
 
-go 1.24.0
-
-toolchain go1.25.5
+go 1.26
 
 require (
 	github.com/armon/circbuf v0.0.0-20190214190532-5111143e8da2
@@ -11,7 +9,7 @@ require (
 	github.com/fsouza/go-dockerclient v1.12.3
 	github.com/go-viper/mapstructure/v2 v2.4.0
 	github.com/gobs/args v0.0.0-20210311043657-b8c0b223be93
-	github.com/gohugoio/hashstructure v0.6.0
+	github.com/gohugoio/hashstructure v1.1.0
 	github.com/jessevdk/go-flags v1.6.1
 	github.com/magefile/mage v1.15.0
 	github.com/mcuadros/go-defaults v1.2.0
